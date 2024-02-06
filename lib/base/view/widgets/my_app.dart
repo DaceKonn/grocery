@@ -15,12 +15,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        // initialRoute: '/',
+/*        routes: {
+          '/': (context) {
+
+          }
+        },*/
         title: 'Namer App',
-        theme: ThemeData(
-          useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey, brightness: Brightness.dark),
-        ),
+        theme: _getTheme(),
         home: const LandingPage(),
       );
+  }
+
+  ThemeData _getTheme() {
+    return ThemeData(
+      useMaterial3: true,
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey, brightness: Brightness.dark),
+    );
   }
 }
