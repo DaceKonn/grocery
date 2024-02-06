@@ -1,10 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:grocery/auth/domain/auth.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../grocery_list/view/widgets/grocery_lists_main_page.dart';
 import '../../../product/view/widgets/product_main_page.dart';
 import '../../../recipe/view/widgets/recipe_main_page.dart';
+
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
@@ -33,7 +35,7 @@ class _LandingPageState extends State<LandingPage> {
             .of(context)
             .colorScheme
             .inversePrimary,
-        title: Text('Grocery! - Witaj ${_user.displayName}'),
+        title: Text(AppLocalizations.of(context)!.helloWorld),//Text('Grocery! - Witaj ${_user.displayName}'),
       ),
       body: Center(
         child: Column(

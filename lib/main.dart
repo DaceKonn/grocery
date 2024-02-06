@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:grocery/auth/domain/auth.dart';
-import 'package:grocery/auth/infrastructure/firebase_authentication.dart';
 import 'package:grocery/base/domain/infrastructure.dart';
 import 'package:grocery/base/infrastructure/dependency_registry.dart';
 

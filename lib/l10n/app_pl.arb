@@ -1,0 +1,6 @@
+{
+  "helloWorld": "Witaj świecie!",
+  "@helloWorld": {
+    "description": "Standardowe przywitanie"
+  }
+}
