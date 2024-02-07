@@ -45,7 +45,7 @@ class _LandingPageState extends State<LandingPage> {
                 context, const Text('Przepisy'), const RecipeMainPage()),
             _spacing,
             _goToOption(
-                context, const Text('Produkty'), const ProductMainPage()),
+                context, const Text('Produkty'), const ProductsListWidget()),
             _spacing,
             _goToOption(context, const Text('Listy Zakupów'),
                 const GroceryListsMainPage()),

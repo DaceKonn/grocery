@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:grocery/framework/widgets/landing_page.dart';
+import 'package:grocery/framework/widgets/product_create_widget.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
