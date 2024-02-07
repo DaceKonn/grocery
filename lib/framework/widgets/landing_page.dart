@@ -1,11 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:grocery/auth/domain/auth.dart';
+import 'package:grocery/framework/auth/auth.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../../../grocery_list/view/widgets/grocery_lists_main_page.dart';
-import '../../../product/view/widgets/product_main_page.dart';
-import '../../../recipe/view/widgets/recipe_main_page.dart';
+import 'grocery_lists_main_page.dart';
+import 'product_main_page.dart';
+import 'recipe_main_page.dart';
 
 
 class LandingPage extends StatefulWidget {

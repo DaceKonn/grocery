@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:grocery/auth/domain/auth.dart';
-import 'package:grocery/base/domain/infrastructure.dart';
-import 'package:grocery/base/infrastructure/dependency_registry.dart';
+import 'package:grocery/framework/auth/auth.dart';
+import 'package:grocery/framework/infrastructure.dart';
+import 'package:grocery/framework/dependency_registry.dart';
 
-import 'base/view/widgets/my_app.dart';
+import 'framework/widgets/my_app.dart';
 
 // void main() {
 //   runApp(const MyApp());

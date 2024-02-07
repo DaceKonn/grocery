@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:grocery/base/domain/infrastructure.dart';
-import 'package:grocery/base/infrastructure/firebase/firebase_options.dart';
+import 'package:grocery/framework/infrastructure.dart';
+import 'package:grocery/framework/firebase/firebase_options.dart';
 
 class FirebaseInitializerImpl implements InfrastructureInitializer {
   @override

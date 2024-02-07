@@ -1,4 +1,4 @@
-import 'package:grocery/base/infrastructure/dependency_registry.dart';
+import 'package:grocery/framework/dependency_registry.dart';
 
 abstract class SecurityInitializer {
   Future<void> init();

@@ -1,8 +1,8 @@
 
 import 'package:get_it/get_it.dart';
-import 'package:grocery/auth/domain/auth.dart';
-import 'package:grocery/auth/infrastructure/firebase_authentication.dart';
-import 'package:grocery/base/domain/infrastructure.dart';
+import 'package:grocery/framework/auth/auth.dart';
+import 'package:grocery/framework/firebase/firebase_authentication.dart';
+import 'package:grocery/framework/infrastructure.dart';
 import 'firebase/firebase_initializer_impl.dart';
 
 GetIt locator = GetIt.instance;
