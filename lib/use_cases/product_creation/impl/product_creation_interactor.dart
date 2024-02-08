@@ -1,7 +1,7 @@
 import 'package:grocery/use_cases/product_creation/product_creation_ds_gateway.dart';
 
 import '../../../entities/product/product.dart';
-import '../../../entities/product/product_factory.dart';
+import '../../../entities/value_objects/name.dart';
 import '../product_creation_ports.dart';
 
 class ProductCreationInteractor implements ProductCreationInput {
@@ -19,11 +19,11 @@ class ProductCreationInteractor implements ProductCreationInput {
   }
 
   Product _createValidProduct(ProductCreationInputRequest request) {
-    return _factory.create(request.name);
+    return _factory.create(Name(request.name));
   }
 
   ProductCreationDsResult _saveProduct(Product product) {
-    ProductCreationDsRequestModel dsRequest = ProductCreationDsRequestModel(product.getName());
+    ProductCreationDsRequestModel dsRequest = ProductCreationDsRequestModel(product.getName().name);
     return _gateway.save(dsRequest);
   }
 

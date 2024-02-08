@@ -6,8 +6,7 @@ import 'package:grocery/interface/product/get/impl/get_product_presenter.dart';
 import 'package:grocery/use_cases/get_products/get_products_ds_gateway.dart';
 import 'package:grocery/use_cases/product_creation/impl/product_creation_interactor.dart';
 import 'package:grocery/use_cases/product_creation/product_creation_ports.dart';
-import '../entities/product/SimpleProduct/simple_product_factory.dart';
-import '../entities/product/product_factory.dart';
+import '../entities/product/product.dart';
 import '../interface/product/creation/impl/product_creation_controller_impl.dart';
 import '../interface/product/get/impl/get_product_controller_impl.dart';
 import '../interface/product/in_memory/in_memory_product_gateway.dart';
@@ -39,7 +38,7 @@ void _registerProductGetController() {
 
 void _registerProductCreationController() {
   ProductCreationDsGateway gateway = locator.registerSingleton<ProductCreationDsGateway>(_repo);
-  ProductFactory factory = locator.registerSingleton<ProductFactory>(SimpleProductFactory());
-  var input = locator.registerSingleton<ProductCreationInput>(ProductCreationInteractor(gateway, factory));
-  locator.registerSingleton<ProductCreationController>(ProductCreationControllerImpl(input, ProductCreationPresenter()));
+  // ProductFactory factory = locator.registerSingleton<ProductFactory>(SimpleProductFactory());
+  // var input = locator.registerSingleton<ProductCreationInput>(ProductCreationInteractor(gateway, factory));
+  // locator.registerSingleton<ProductCreationController>(ProductCreationControllerImpl(input, ProductCreationPresenter()));
 }
