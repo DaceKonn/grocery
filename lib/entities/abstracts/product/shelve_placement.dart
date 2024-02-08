@@ -1,5 +1,4 @@
-import '../helpers/validators.dart';
-import 'shelve.dart';
+import 'package:grocery/entities/abstracts/product/shelve.dart';
 
 abstract class ShelvePlacementFactory {
   ShelvePlacement create(Shelve shelve, {int order = 0});

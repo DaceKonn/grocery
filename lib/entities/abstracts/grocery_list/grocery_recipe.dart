@@ -1,5 +1,5 @@
-import '../recipe/recipe.dart';
-import '../recipe/recipe_modifier.dart';
+import 'package:grocery/entities/abstracts/recipe/recipe.dart';
+import 'package:grocery/entities/abstracts/recipe/recipe_modifier.dart';
 
 abstract class GroceryRecipeFactory {
   GroceryRecipe create(Recipe baseRecipe);

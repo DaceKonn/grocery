@@ -1,7 +1,10 @@
-import '../../helpers/validators.dart';
-import '../../product/shelve.dart';
-import '../../product/shelve_placement.dart';
-import 'simple_shelve_placement.dart';
+
+
+import 'package:grocery/entities/abstracts/product/shelve.dart';
+import 'package:grocery/entities/abstracts/product/shelve_placement.dart';
+import 'package:grocery/entities/helpers/validators.dart';
+
+import 'package:grocery/entities/impl/product/simple_shelve_placement.dart';
 
 class SimpleShelvePlacementFactory implements ShelvePlacementFactory {
   @override

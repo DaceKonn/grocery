@@ -1,4 +1,4 @@
-import '../value_objects/comment.dart';
+import 'package:grocery/entities/value_objects/comment.dart';
 
 abstract class Commentable {
   Comment getComment();

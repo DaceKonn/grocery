@@ -1,10 +1,10 @@
-import 'package:grocery/entities/impl/product/simple_product.dart';
-import 'package:grocery/entities/product/shelve.dart';
-import 'package:grocery/entities/product/shelve_placement.dart';
-import 'package:grocery/entities/value_objects/name.dart';
 
-import '../../helpers/validators.dart';
-import '../../product/product.dart';
+import 'package:grocery/entities/abstracts/product/product.dart';
+import 'package:grocery/entities/abstracts/product/shelve.dart';
+import 'package:grocery/entities/abstracts/product/shelve_placement.dart';
+import 'package:grocery/entities/helpers/validators.dart';
+import 'package:grocery/entities/value_objects/name.dart';
+import 'package:grocery/entities/impl/product/simple_product.dart';
 
 class SimpleProductFactory implements ProductFactory {
   final ShelveFactory _shelveFactory;

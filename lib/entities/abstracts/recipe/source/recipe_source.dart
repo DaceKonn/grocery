@@ -1,6 +1,3 @@
-import '../../impl/recipe/source/book.dart';
-import '../../impl/recipe/source/page.dart';
-
 abstract class RecipeSource {
   RecipeSourceType getType();
 }

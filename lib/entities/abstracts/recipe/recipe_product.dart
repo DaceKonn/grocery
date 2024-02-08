@@ -1,5 +1,5 @@
-import '../product/product.dart';
-import 'product_amount.dart';
+import 'package:grocery/entities/abstracts/product/product.dart';
+import 'package:grocery/entities/abstracts/recipe/product_amount.dart';
 
 abstract class RecipeProductFactory {
   RecipeProduct create(Product product, {ProductAmount amount});

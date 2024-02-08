@@ -1,6 +1,8 @@
-import '../../helpers/validators.dart';
-import '../../product/shelve.dart';
-import '../../product/shelve_placement.dart';
+
+
+import 'package:grocery/entities/abstracts/product/shelve.dart';
+import 'package:grocery/entities/abstracts/product/shelve_placement.dart';
+import 'package:grocery/entities/helpers/validators.dart';
 
 class SimpleShelvePlacement implements ShelvePlacement {
   Shelve shelve;

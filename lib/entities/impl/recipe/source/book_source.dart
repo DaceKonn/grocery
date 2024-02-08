@@ -1,5 +1,6 @@
-import '../../../recipe/source/recipe_source.dart';
-import 'book.dart';
+
+import 'package:grocery/entities/abstracts/recipe/source/recipe_source.dart';
+import 'package:grocery/entities/impl/recipe/source/book.dart';
 
 class BookSource implements RecipeSource {
   Book? _sourceBook;

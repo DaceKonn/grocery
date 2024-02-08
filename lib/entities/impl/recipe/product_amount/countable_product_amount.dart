@@ -1,6 +1,5 @@
+import 'package:grocery/entities/abstracts/recipe/product_amount.dart';
 import 'package:grocery/entities/helpers/validators.dart';
-
-import '../../../recipe/product_amount.dart';
 
 class CountableProductAmount implements ProductAmount {
   int _count = 0;

@@ -1,6 +1,6 @@
-import '../../../helpers/named.dart';
-import '../../../helpers/validators.dart';
-import '../../../value_objects/name.dart';
+import 'package:grocery/entities/helpers/named.dart';
+import 'package:grocery/entities/helpers/validators.dart';
+import 'package:grocery/entities/value_objects/name.dart';
 
 class Book implements Named {
   Name _name;

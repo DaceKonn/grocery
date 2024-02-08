@@ -1,4 +1,4 @@
-import '../../../recipe/product_amount.dart';
+import 'package:grocery/entities/abstracts/recipe/product_amount.dart';
 
 class UnknownProductAmount implements ProductAmount {
   @override

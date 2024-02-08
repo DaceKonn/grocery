@@ -1,7 +1,7 @@
+
+import 'package:grocery/entities/abstracts/product/shelve.dart';
 import 'package:grocery/entities/helpers/validators.dart';
 import 'package:grocery/entities/value_objects/name.dart';
-
-import '../../product/shelve.dart';
 
 class SimpleShelve implements Shelve {
   Name _name;

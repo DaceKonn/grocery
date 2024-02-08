@@ -1,6 +1,5 @@
 import 'package:grocery/entities/helpers/validators.dart';
-
-import '../helpers/validatable.dart';
+import 'package:grocery/entities/helpers/validatable.dart';
 
 class Name implements Validatable {
   final String name;

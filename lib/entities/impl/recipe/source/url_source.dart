@@ -1,5 +1,5 @@
-import '../../../recipe/source/recipe_source.dart';
-import 'page.dart';
+import 'package:grocery/entities/abstracts/recipe/source/recipe_source.dart';
+import 'package:grocery/entities/impl/recipe/source/page.dart';
 
 class UrlSource implements RecipeSource {
   Page? _sourcePage;

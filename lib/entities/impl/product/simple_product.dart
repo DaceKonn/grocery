@@ -1,11 +1,8 @@
 
-
-import 'package:grocery/entities/product/shelve_placement.dart';
-
+import 'package:grocery/entities/abstracts/product/product.dart';
+import 'package:grocery/entities/abstracts/product/shelve_placement.dart';
+import 'package:grocery/entities/helpers/validators.dart';
 import 'package:grocery/entities/value_objects/name.dart';
-
-import '../../helpers/validators.dart';
-import '../../product/product.dart';
 
 class SimpleProduct implements Product {
   Name _name;

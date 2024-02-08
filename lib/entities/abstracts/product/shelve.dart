@@ -1,5 +1,5 @@
-import '../helpers/named.dart';
-import '../value_objects/name.dart';
+import 'package:grocery/entities/helpers/named.dart';
+import 'package:grocery/entities/value_objects/name.dart';
 
 abstract class ShelveFactory {
   Shelve create(Name name, {int order = 0});

@@ -1,11 +1,10 @@
-import 'package:grocery/entities/recipe/product_amount.dart';
-
-import '../helpers/commentable.dart';
-import '../helpers/named.dart';
-import '../product/product.dart';
-import '../value_objects/name.dart';
-import 'recipe.dart';
-import 'recipe_product.dart';
+import 'package:grocery/entities/helpers/commentable.dart';
+import 'package:grocery/entities/helpers/named.dart';
+import 'package:grocery/entities/value_objects/name.dart';
+import 'package:grocery/entities/abstracts/product/product.dart';
+import 'package:grocery/entities/abstracts/recipe/product_amount.dart';
+import 'package:grocery/entities/abstracts/recipe/recipe.dart';
+import 'package:grocery/entities/abstracts/recipe/recipe_product.dart';
 
 abstract class RecipeModifierFactory {
   RecipeModifier create(Name name, Recipe baseRecipe);
