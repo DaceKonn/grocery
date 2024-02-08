@@ -1,6 +1,6 @@
-import '../../helpers/named.dart';
-import '../../helpers/validators.dart';
-import '../../value_objects/name.dart';
+import '../../../helpers/named.dart';
+import '../../../helpers/validators.dart';
+import '../../../value_objects/name.dart';
 
 class Page implements Named {
   Name _name;
