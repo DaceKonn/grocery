@@ -1,7 +1,7 @@
+import 'package:grocery/entities/abstracts/grocery_list/grocery_recipe.dart';
 import 'package:grocery/entities/abstracts/product/product.dart';
 import 'package:grocery/entities/abstracts/recipe/product_amount.dart';
 import 'package:grocery/entities/abstracts/recipe/recipe.dart';
-import 'package:grocery/entities/abstracts/grocery_list/grocery_recipe.dart';
 
 abstract class GroceryProductFactory {
   GroceryProduct create(Product baseProduct, Set<GroceryRecipe> referencingRecipes);

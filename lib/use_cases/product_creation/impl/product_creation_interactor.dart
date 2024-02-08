@@ -1,6 +1,6 @@
 import 'package:grocery/entities/abstracts/product/product.dart';
-import 'package:grocery/use_cases/product_creation/product_creation_ds_gateway.dart';
 import 'package:grocery/entities/value_objects/name.dart';
+import 'package:grocery/use_cases/product_creation/product_creation_ds_gateway.dart';
 import 'package:grocery/use_cases/product_creation/product_creation_ports.dart';
 
 class ProductCreationInteractor implements ProductCreationInput {

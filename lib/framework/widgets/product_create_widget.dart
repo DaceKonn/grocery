@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grocery/interface/product/creation/product_creation_controller.dart';
+
 import '../dependency_registry.dart';
 
 class ProductCreateWidget extends StatefulWidget {
@@ -14,6 +15,7 @@ class _ProductCreateState extends State<ProductCreateWidget> {
 
   @override
   void initState() {
+    super.initState();
     _controller = locator<ProductCreationController>();
   }
 

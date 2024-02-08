@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grocery/framework/auth/auth.dart';
-import 'package:grocery/framework/infrastructure.dart';
 import 'package:grocery/framework/dependency_registry.dart';
+import 'package:grocery/framework/infrastructure.dart';
 
 import 'framework/widgets/my_app.dart';
 

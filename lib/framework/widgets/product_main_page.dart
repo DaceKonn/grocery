@@ -17,6 +17,7 @@ class _ProductsListState extends State<ProductsListWidget> {
 
   @override
   void initState() {
+    super.initState();
     _controller = locator<GetProductController>();
     products = _controller.getProducts();
   }

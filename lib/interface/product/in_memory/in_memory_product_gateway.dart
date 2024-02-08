@@ -1,7 +1,8 @@
 import 'package:grocery/use_cases/get_products/get_products_ds_gateway.dart';
 import 'package:grocery/use_cases/product_creation/product_creation_ds_gateway.dart';
-import 'in_memory_product_repository.dart';
+
 import 'in_memory_product.dart';
+import 'in_memory_product_repository.dart';
 
 class InMemoryProductGateway implements ProductCreationDsGateway, GetProductsDsGateway {
 
